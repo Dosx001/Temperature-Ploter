@@ -1,20 +1,6 @@
 import matplotlib.pyplot as plt
 import datetime as dt
 
-def main():
-    plts = Plots()
-    alist = ['2020-04-22 14-57-55 to 15-48-00.txt', '2020-04-27 23-36-40 to 7-07.txt', '2020-04-28 20-55-50 to 8-41.txt',
-    '2020-04-29 22-34-19 to 8-48.txt','2020-04-30 22-08-15 to 7-43.txt', '2020-05-01 20-55-11 to 9-23.txt',
-    '2020-05-02 20-34-16 to 6-54.txt', '2020-05-03 20-51-43 to 9-06.txt', '2020-05-04 23-41-46 to 7-20.txt',
-    '2020-05-05 21-17-52 to 8-44.txt', '2020-05-06 21-43-46 to 8-28.txt', '2020-05-07 23-25-30 to 7-40.txt',
-    '2020-05-08 21-14-52 to 9-09.txt', '2020-05-09 21-29-15 to 7-51.txt', '2020-05-10 21-40-37 to 6-59.txt',
-    '2020-05-11 23-24-53 to 8-17.txt', '2020-05-12 21-45-37 to 8-45.txt' , '2020-05-13 20-55-46 to 9-01.txt',
-    '2020-05-14 21-15-37 to 7-41.txt', '2020-05-15 20-41-41 to 8-11.txt','2020-05-16 20-36-58 to 9-37.txt']
-    for i in alist:
-        plts.add_plot(i)
-    plts.plot_files() 
-    plts.plot_temp()
-
 class Plots:
     def __init__(self):
         self.files = []
@@ -104,6 +90,3 @@ class Plots:
         plt.xlim(1, len(days))
         plt.title("Temperature v Time")
         plt.show()
-
-if __name__ == "__main__":
-    main()
