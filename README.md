@@ -49,7 +49,6 @@ Example of text file contents.
 ```python
 import Temp_ploter as tplt 
 
-plts = Plots
 plts = tplt.Plots()
 alist = ['2020-04-27 23-36-40 to 7-07.txt', '2020-04-28 20-55-50 to 8-41.txt',
          '2020-04-29 22-34-19 to 8-48.txt']
