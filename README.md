@@ -15,7 +15,7 @@ Infrared Thermometer - MLX90614
 <img src="https://cdn.sparkfun.com/assets/learn_tutorials/4/5/0/mlx90614-pinout.png" height="300" width="300">
 
 MLX90614 Pin | Arduino Pin | Note
-- | - | -
+--- | --- | ---
 VDD | 3.3V
 VSS | 0V
 PWN/SDA | SDA (A4) | Pulled up to 3.3V via a 4.7kΩ Resistor
