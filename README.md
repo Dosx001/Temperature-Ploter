@@ -26,7 +26,7 @@ SCL/Vz | SCL (A5) | Pulled up to 3.3V via a 4.7kΩ Resistor
 # Data Acquisition
 Use thermometer_time.ino to record data with Arduino.\
 Used [CoolTerm](https://freeware.the-meiers.org/) program to record data from Arduino to desktop.\
-Saved data into a text file using this format:
+Saved data into a text file using this format:\
 general: `YYYY-MM-DD HH-MM-SS.txt`\
 example: `2020-04-27 23-36-40.txt`
 
